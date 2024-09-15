@@ -1,0 +1,26 @@
+
+
+java:S2293¢"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÅ‰¤8ôç¬ù›2J$9f1b8809-dd2e-4572-b137-52a7b74bced6
+¶
+java:S1319 "mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(şôş”üÿÿÿÿ8öç¬ù›2J$8afef643-8c7c-4770-b8df-805bdf9b6b6e
+
+java:S3824°"IReplace this "Map.containsKey()" with a call to "Map.computeIfPresent()".(ğğŠ8¶˜êœ2J$d3201b54-2fb8-464b-a146-6d2a762d7968
+m	java:S106#"+Replace this use of System.out by a logger.(ëò€8€è¬ù›2J$c797d3ee-6122-471d-95e9-0005c4592608
+r	java:S106%"+Replace this use of System.out by a logger.(âØ™ûÿÿÿÿ8€è¬ù›2J$223ea6ba-d4db-44b2-a149-3cacc342a10c
+m	java:S106/"+Replace this use of System.out by a logger.(ê”¤–8è¬ù›2J$3a686d62-9d8d-4940-b658-7d2f2dcfda56
+r	java:S1061"+Replace this use of System.out by a logger.(·ß´‹ÿÿÿÿÿ8è¬ù›2J$41b956d8-0dc4-41c5-b9d9-20c0142b8f79
+r	java:S1069"+Replace this use of System.out by a logger.(˜‚ëùşÿÿÿÿ8‚è¬ù›2J$d914c430-6ae3-4976-9528-086bd5eeca11
+l	java:S106;"+Replace this use of System.out by a logger.(àœê>8‚è¬ù›2J$08be9966-0451-46e4-b194-ffab7480b424
+†
+java:S1155A">Use isEmpty() to check whether the collection is empty or not.(â„Œ¦şÿÿÿÿ8øÁ œ2J$3e5f8547-8928-4404-adbe-58580d49d570
+~
+java:S1117o";Rename "animals" which hides the field declared at line 15.(Å×•ª8„è¬ù›2J$8e69c98f-b76a-4121-8175-4b3f7166a88a
+~
+java:S1117y";Rename "animals" which hides the field declared at line 15.(Å×•ª8…è¬ù›2J$ea3c587b-a821-4dfb-a130-efb5a01cb65b
+”
+java:S3981"KThe size of "plants" is always ">=0", so update this test to use isEmpty().(É”ƒ´úÿÿÿÿ8ıÁ œ2J$d26e8061-4e0d-416a-bc11-d78e7bb9690c
+n	java:S106—"+Replace this use of System.out by a logger.(ÒµÛ„8‡è¬ù›2J$d214ee36-773c-4d5d-8213-49577b0a1ab2
+–
+java:S6204¼"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Â œ2J$aae2e7d9-4282-42c8-bd99-2e6775794547
+•
+java:S6204Ä"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ìô©78‚Â œ2J$def84ede-bbfb-4cba-a39c-39b0a1af068c

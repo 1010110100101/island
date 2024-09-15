@@ -1,0 +1,18 @@
+
+	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8÷äõ›2J$a4b31e67-023c-4880-acff-b7725d95c69b
+}	java:S125"<This block of commented-out lines of code should be removed.(Åùş|8¡÷äõ›2J$cc9b3643-76bc-45d7-a8c4-3836b09f08f1
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(¦ÈŞûÿÿÿÿ8¢÷äõ›2J$719f62e3-1c9d-4cc0-ac92-8552ede339b9
+o
+java:S1125&"'Remove the unnecessary boolean literal.(¢´Ñûøÿÿÿÿ8¥÷äõ›2J$8da4b0ef-1268-44dc-bc10-362fea06d4ad
+¡
+java:S2142*"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¦÷äõ›2J$6245e680-eb17-466e-8e51-8e02bc585307
+¿
+java:S11303"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(³ÖÿÔøÿÿÿÿ8©÷äõ›2J$8e617b0c-633b-4862-84f1-1848c03ac186
+r	java:S1068"+Replace this use of System.out by a logger.(¢¬³Ÿıÿÿÿÿ8ª÷äõ›2J$c638d971-ad4c-4df2-98b7-3b61c05a032d
+l	java:S106<"+Replace this use of System.out by a logger.(Üş„48«÷äõ›2J$d46cd4c7-0544-4dbb-a51d-0f30ae9554bb
+r	java:S106C"+Replace this use of System.out by a logger.(œØ±¨şÿÿÿÿ8¬÷äõ›2J$76920b0b-8a05-47c2-917b-3708145888d4
+r	java:S106G"+Replace this use of System.out by a logger.(ì²‰Çşÿÿÿÿ8­÷äõ›2J$eaab4d1a-8105-4934-bb5e-22a772e14beb
+l	java:S106Q"+Replace this use of System.out by a logger.(¶ïûe8­÷äõ›2J$ade93dbe-9512-4f7b-bce2-71cfac436909
+m	java:S106U"+Replace this use of System.out by a logger.(ÖàŸ³8®÷äõ›2J$f37ffa83-a39e-4b67-b95f-d870343c708c
+m	java:S106e"+Replace this use of System.out by a logger.(ú‹Íâ8°÷äõ›2J$5b4dddaa-1c15-4bab-8607-8f1b63981d6b
+m	java:S106u"+Replace this use of System.out by a logger.(ú‹Íâ8±÷äõ›2J$cc9a39fc-8ab3-4e35-8d9d-92e76c56ee94
