@@ -1,26 +1,24 @@
 
 
-java:S2293¢"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÅ‰¤8ôç¬ù›2J$9f1b8809-dd2e-4572-b137-52a7b74bced6
+java:S2293¢"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÅ‰¤8÷±ÎäŸ2J$499abd93-fc61-4bc2-90b0-fe2d6b71cae5
 ¶
-java:S1319 "mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(şôş”üÿÿÿÿ8öç¬ù›2J$8afef643-8c7c-4770-b8df-805bdf9b6b6e
+java:S1319 "mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(şôş”üÿÿÿÿ8ø±ÎäŸ2J$450fb0a1-527c-417e-85ef-436ab009b199
 
-java:S3824°"IReplace this "Map.containsKey()" with a call to "Map.computeIfPresent()".(ğğŠ8¶˜êœ2J$d3201b54-2fb8-464b-a146-6d2a762d7968
-m	java:S106#"+Replace this use of System.out by a logger.(ëò€8€è¬ù›2J$c797d3ee-6122-471d-95e9-0005c4592608
-r	java:S106%"+Replace this use of System.out by a logger.(âØ™ûÿÿÿÿ8€è¬ù›2J$223ea6ba-d4db-44b2-a149-3cacc342a10c
-m	java:S106/"+Replace this use of System.out by a logger.(ê”¤–8è¬ù›2J$3a686d62-9d8d-4940-b658-7d2f2dcfda56
-r	java:S1061"+Replace this use of System.out by a logger.(·ß´‹ÿÿÿÿÿ8è¬ù›2J$41b956d8-0dc4-41c5-b9d9-20c0142b8f79
-r	java:S1069"+Replace this use of System.out by a logger.(˜‚ëùşÿÿÿÿ8‚è¬ù›2J$d914c430-6ae3-4976-9528-086bd5eeca11
-l	java:S106;"+Replace this use of System.out by a logger.(àœê>8‚è¬ù›2J$08be9966-0451-46e4-b194-ffab7480b424
+java:S3824°"IReplace this "Map.containsKey()" with a call to "Map.computeIfPresent()".(ğğŠ8²ÎäŸ2J$347a740b-7196-4d7b-98f7-28858bb495e5
+m	java:S106%"+Replace this use of System.out by a logger.(ëò€8”²ÎäŸ2J$cc663c37-8264-4b2b-a2b0-797ccf30252a
+r	java:S106'"+Replace this use of System.out by a logger.(âØ™ûÿÿÿÿ8”²ÎäŸ2J$edf5b0bc-923e-4bdb-a6ab-cabbec14cada
+m	java:S1061"+Replace this use of System.out by a logger.(ê”¤–8•²ÎäŸ2J$9497aa5b-4a9c-4e1b-9216-6c95ef7e824b
+r	java:S1063"+Replace this use of System.out by a logger.(·ß´‹ÿÿÿÿÿ8–²ÎäŸ2J$f3b9f67c-c55e-497a-9cbf-ad454c676eb5
+r	java:S106;"+Replace this use of System.out by a logger.(˜‚ëùşÿÿÿÿ8–²ÎäŸ2J$7abbff4e-c01e-453b-97ac-9dedd4349182
+l	java:S106="+Replace this use of System.out by a logger.(àœê>8—²ÎäŸ2J$3c1946db-0208-40d2-9013-8845d413c12b
 †
-java:S1155A">Use isEmpty() to check whether the collection is empty or not.(â„Œ¦şÿÿÿÿ8øÁ œ2J$3e5f8547-8928-4404-adbe-58580d49d570
+java:S1155C">Use isEmpty() to check whether the collection is empty or not.(â„Œ¦şÿÿÿÿ8˜²ÎäŸ2J$7a2a133b-3063-4559-80f2-053f1f1e61db
 ~
-java:S1117o";Rename "animals" which hides the field declared at line 15.(Å×•ª8„è¬ù›2J$8e69c98f-b76a-4121-8175-4b3f7166a88a
+java:S1117r";Rename "animals" which hides the field declared at line 15.(Å×•ª8›²ÎäŸ2J$ba7457cf-7f98-41aa-8f29-a60e09d6ca01
 ~
-java:S1117y";Rename "animals" which hides the field declared at line 15.(Å×•ª8…è¬ù›2J$ea3c587b-a821-4dfb-a130-efb5a01cb65b
+java:S1117|";Rename "animals" which hides the field declared at line 15.(Å×•ª8œ²ÎäŸ2J$3474d8f2-32a7-458c-b904-82d4ac08ee46
 ”
-java:S3981"KThe size of "plants" is always ">=0", so update this test to use isEmpty().(É”ƒ´úÿÿÿÿ8ıÁ œ2J$d26e8061-4e0d-416a-bc11-d78e7bb9690c
-n	java:S106—"+Replace this use of System.out by a logger.(ÒµÛ„8‡è¬ù›2J$d214ee36-773c-4d5d-8213-49577b0a1ab2
+java:S3981"KThe size of "plants" is always ">=0", so update this test to use isEmpty().(ü¯Ãîúÿÿÿÿ8²ÎäŸ2J$ffe84507-f8df-402c-aaa1-582270f16177
+n	java:S106˜"+Replace this use of System.out by a logger.(¬•¿8Ÿ²ÎäŸ2J$a0732b44-d9d4-4607-8f7e-e1e0f6f43b2a
 –
-java:S6204¼"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Â œ2J$aae2e7d9-4282-42c8-bd99-2e6775794547
-•
-java:S6204Ä"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ìô©78‚Â œ2J$def84ede-bbfb-4cba-a39c-39b0a1af068c
+java:S6204¼"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8£²ÎäŸ2J$5de3a425-5e07-4825-a11e-a6ee27730536

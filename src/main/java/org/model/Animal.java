@@ -3,6 +3,7 @@ import org.model.Annotation.AnimalType;
 import org.start.StartParamethers;
 
 import java.util.*;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 
 public abstract class Animal {
@@ -23,7 +24,7 @@ public abstract class Animal {
     public String getName() { return name; }
 
     protected float weight;
-    private float etalonWeight;
+    protected float etalonWeight;
 
     //процентное соотношение текущей массы тела к эталонному значению
     public float getWeightPercentage() {
@@ -42,6 +43,7 @@ public abstract class Animal {
         if (animalType != null) {
             this.name = animalType.name();
             this.hungerLevel = animalType.hungerLevel();
+
         }
 
         this.finishedCycle = false;
@@ -49,64 +51,69 @@ public abstract class Animal {
 
     public abstract void eat();
 
-    public void move(Island island) {
-
+    public synchronized void move(Island island) {
         List<Location> potentialToMoveLocations = new ArrayList<>();
 
+        // Текущие координаты животного
+        int currentX = location.getX();
+        int currentY = location.getY();
 
-        //1: обрабатываем края карты
-        int start_i = (location.getX() - transferSpeed) < 0 ? 0 : location.getX() - transferSpeed;
-        int finisf_i = (location.getX() + transferSpeed) > island.getIslandWidth() - 1 ? island.getIslandWidth() - 1 : location.getX() + transferSpeed;
+        //подготовка допустимых локаций для миграции
+        // Проходим по всем возможным смещениям в пределах скорости перемещения
+        for (int dx = -transferSpeed; dx <= transferSpeed; dx++) {
+            for (int dy = -transferSpeed + Math.abs(dx); dy <= transferSpeed - Math.abs(dx); dy++) {
 
-        int start_j = (location.getY() - transferSpeed) < 0 ? 0 : location.getY() - transferSpeed;
-        int finisf_j = (location.getY() + transferSpeed) > island.getIslandHeight() - 1 ? island.getIslandHeight() - 1 : location.getY() + transferSpeed;
-        //:1
+                //на всякий случай дополнительно проверяем, что сумма модулей
+                // смещений по x и y не превышает скорость перемещения
+                if (Math.abs(dx) + Math.abs(dy) <= transferSpeed) {
 
-        for(int i = start_i; i < finisf_i; i++) { //по шагам по х
-            for (int j = start_j - i; j < finisf_j - i; j++) { // по шагам по у с учетом пройденных уже шагов по х
-                Location potentialLocation = island.getLocation(i, j);
+                    int newX = currentX + dx;
+                    int newY = currentY + dy;
 
-                if(potentialLocation != null) { //если локация физически существует по указанным координатам
-                    if (potentialLocation.getAnimals(name).size() <
-                            StartParamethers.getMaxPossibleAnimalsAmountPerLocation(name)) { //если численность животных этого вида не достигла предела
-                        potentialToMoveLocations.add(potentialLocation);
+                    // Проверяем, что новые координаты находятся в пределах острова
+                    if (newX >= 0 && newX < island.getIslandWidth() &&
+                            newY >= 0 && newY < island.getIslandHeight()) {
+
+                        Location potentialLocation = island.getLocation(newX, newY);
+
+                        if (potentialLocation != null) {
+                            // Проверяем, что численность животных этого вида на новой локации не достигла предела
+                            if (potentialLocation.getAnimals(name).size() <
+                                    StartParamethers.getMaxPossibleAnimalsAmountPerLocation(name)) {
+                                potentialToMoveLocations.add(potentialLocation);
+                            }
+                        }
                     }
                 }
-
-                //если вдруг имеются дубли, то уникализируем список возможных локаций для перемещения
-                potentialToMoveLocations = potentialToMoveLocations.stream().distinct().collect(Collectors.toList());
-
-                //если есть доступные к перемещению потенциальные локации
-                if (potentialToMoveLocations != null && potentialToMoveLocations.size() > 0) {
-                    System.out.println(name + "_" + id+ " стартовал на миграцию");
-                    //выбираем одну из доступных к перемещению локаций наиболее выгодную для проживания и размножения
-                    //это та, где популяция данного вида животных наименьшая, а пищи больше
-                    //пока что чисто случайным образом
-                    Random r = new Random();
-                    int index = r.nextInt(0, potentialToMoveLocations.size());
-
-                    //выбранная целевая локация для перемещения
-                    Location destinationLocation = potentialToMoveLocations.get(index);
-
-                    //уходим с текущей локации
-                    this.location.animalLeaveLocation(this);
-
-                    //приходим в новую локацию
-                    destinationLocation.addAnimal(this, false);
-                }
             }
+        }
+
+        //непосредственно акт миграции
+        // Если есть доступные для перемещения локации
+        if (!potentialToMoveLocations.isEmpty()) {
+            System.out.println(name + "_" + id + " стартовал на миграцию");
+
+            // Выбираем случайную локацию из доступных
+            int index = ThreadLocalRandom.current().nextInt(potentialToMoveLocations.size());
+            Location destinationLocation = potentialToMoveLocations.get(index);
+
+            // Уходим с текущей локации
+            this.location.animalLeaveLocation(this);
+
+            // Приходим в новую локацию
+            destinationLocation.addAnimal(this, false);
         }
     }
 
     public abstract void reproduce(Island island);
 
-    protected void grotheWeight() {
+    protected synchronized void grotheWeight() {
         this.weight *=1.1f;
     }
 
 
 
-    public void starve() {
+    public synchronized void starve() {
         this.weight *= 0.95f;
         System.out.println(name + " похудел на 5%");
         if(this.weight < 0.5f*this.etalonWeight) {
@@ -119,7 +126,7 @@ public abstract class Animal {
         if(weight <= 0)
             weight = 0;
 
-        etalonWeight = weight;
+        this.etalonWeight = weight;
         this.weight = etalonWeight;
     }
 

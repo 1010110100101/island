@@ -1,6 +1,12 @@
 
-m	java:S106"+Replace this use of System.out by a logger.(‚ÆÎ¼8ˆùÉÆš2J$9752f35f-4c6e-4eb7-bb9b-9f0c909b8af1
-r	java:S106"+Replace this use of System.out by a logger.(ıÈ‚Ûÿÿÿÿÿ8ˆùÉÆš2J$c8f085e9-ca32-4bdc-a6d7-a74c54ecdf46
-`
-java:S2119+"Save and re-use this "Random".(¼İÅf8‹ùÉÆš2J$e52228c2-0b43-4f54-91e0-a4c83f67f989
-m	java:S1068"+Replace this use of System.out by a logger.(üğÃº8ŒùÉÆš2J$c22b435e-09ff-4c44-901d-e7deea545aff
+w
+java:S1066?"/Merge this if statement with the enclosing one.(ú„æÂıÿÿÿÿ8Ö÷şŸ2J$66098795-9fbd-4b97-ac5d-6a4111f38197
+m	java:S106-"+Replace this use of System.out by a logger.(¯ËĞµ8¹Ö÷şŸ2J$2cca01d4-80a7-46b6-b2d8-b34104fdcf4f
+m	java:S1060"+Replace this use of System.out by a logger.(¾šÓ’8´ÔùşŸ2J$f0c4954c-2215-41f4-b4ef-121ac60032e6
+“
+java:S1764A"KCorrect one of the identical sub-expressions on both sides of operator "&&"(òóãıÿÿÿÿÿ8¶Ö÷şŸ2J$50044226-e113-4199-b956-6f5091a67f80
+
+java:S1764@"KCorrect one of the identical sub-expressions on both sides of operator "&&"(ùÀ ›8¶Ö÷şŸ2J$4c9b483c-0ea7-401c-9a7b-dcc59a9da8f5
+m	java:S106O"+Replace this use of System.out by a logger.(üğÃº8¸ÔùşŸ2J$49016c9b-599f-484f-93a5-b2d7e5fcfedc
+[
+java:S1128">Remove this unused import 'org.model.Annotation.PredatorType'.(¦ÿÎÏ8¼ğ¢¥ 2

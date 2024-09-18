@@ -14,6 +14,10 @@ public class IslandPanel extends JPanel {
 
     public IslandPanel(Island island) {
         this.island = island;
+
+        // Устанавливаем предпочтительные размеры панели
+        // Измените ширину и высоту панели в зависимости от ваших требований
+        setPreferredSize(new Dimension(1000, 800)); // 1000 пикселей ширина, 800 пикселей высота
     }
 
     @Override
@@ -43,6 +47,11 @@ public class IslandPanel extends JPanel {
                 if (location.hasPlant()) {
                     ImageIcon plantIcon = getPlantIcon();
                     plantIcon.paintIcon(this, g, x + cellSize / 2 - 8, y + cellSize / 2 - 8);
+
+                    // Отображаем количество растений правее от иконки
+                    int plantCount = location.getPlants().size();
+                    g.setColor(Color.BLACK);
+                    g.drawString("" + plantCount, x + cellSize / 2 + 10, y + cellSize / 2);  // Смещение текста рядом с иконкой растения
                 }
 
 
@@ -50,8 +59,6 @@ public class IslandPanel extends JPanel {
                     // Рисуем иконки животных
                     int nextAnimalX = 0; // смещение по X для следующей иконки
                     int nextAnimalY = 0; // смещение по Y для следующей иконки
-
-                    int animalNumberInLocation = 0;
 
                     for (Map.Entry<String, Integer> entry : location.getAmountPerAnimalType().entrySet()) {
                         String animalName = entry.getKey();       // Ключ — тип животного (например, "Вовк")
@@ -61,18 +68,16 @@ public class IslandPanel extends JPanel {
                             ImageIcon icon = getAnimalIcon(animalName);
                             icon.paintIcon(this, g, x + nextAnimalX, y + nextAnimalY);
 
+                            // Отображаем количество правее от иконки
+                            g.setColor(Color.BLACK);
+                            g.drawString("" + animalCount, x + nextAnimalX + 10, y + nextAnimalY + 10); // Смещение текста рядом с иконкой
 
-
-
-                            if(animalNumberInLocation > 0 && animalNumberInLocation % 2 == 0)
+                            nextAnimalX += 36;
+                            if(nextAnimalX > 110)
                             {
-                                nextAnimalX = 0; // смещение для следующей иконки
-                                nextAnimalY += 26; // смещение для следующей иконки
+                                nextAnimalX = 0;
+                                nextAnimalY += 36;
                             }
-                            else {
-                                nextAnimalX += 46; // смещение для следующей иконки
-                            }
-                            animalNumberInLocation++;
                         }
                     }
                 }

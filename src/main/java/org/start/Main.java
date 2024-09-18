@@ -13,20 +13,15 @@ public class Main {
     // Используем AtomicBoolean
     //AtomicBoolean: Это класс, предоставляющий возможность безопасного многопоточного доступа к переменной boolean.
     // Его можно использовать для передачи и изменения состояния между разными классами и потоками.
-    static AtomicBoolean isIslandInLife;
+    static AtomicBoolean isIslandInLife = new AtomicBoolean(false);
     static AtomicBoolean allAnimalPutedOnIsland = new AtomicBoolean(false);
 
     public static void main(String[] args) throws InterruptedException {
         // Запускаем GUI в потоке AWT
         // вызов конструктора без параметров
         //SwingUtilities.invokeLater(MainWindow::new);
-
-        isIslandInLife = new AtomicBoolean(false);
         // Вызов конструктора MainWindow с параметрами
-        SwingUtilities.invokeLater(() -> new MainWindow(800, 800, isIslandInLife));
-
-
-        //SwingUtilities.invokeLater(() -> new MainFrame(1400, 800));
+        SwingUtilities.invokeLater(() -> new MainWindow(1400, 800, isIslandInLife));
 
         isIslandInLife.set(true);
 
@@ -35,15 +30,16 @@ public class Main {
 
         // Запускаем симуляцию жизненного цикла
         // движуха на острове не стартанет доколе не будет создан остров и пока не будут расставлены все животные
-        while(island == null || allAnimalPutedOnIsland.get() == false)
+        while(island == null || !allAnimalPutedOnIsland.get())
         {
             try {
-                Thread.sleep(1000);
+                Thread.sleep(5000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
         }
 
+        //запускаем движение жизней животных
         island.simulateLifeCycle();
     }
 
@@ -59,21 +55,19 @@ public class Main {
 
             System.out.println("Данные животных загружены.");
 
-            // Рождение острова
+            // РОЖДЕНИЕ ОСТРОВА
             island = new Island(5, 5, isIslandInLife);
 
-            // Заполняем остров растениями
+            // Заполнение остров растениями
             island.putPlantsOnIsland();
             System.out.println("Растения посажены.");
 
-            // Заполняем остров животными
+            // Заполнение острова животными
             island.putAnimalsOnIsland();
             System.out.println("Животные расставлены.");
 
             allAnimalPutedOnIsland.set(true);
         });
-
-
 
         loadAnimalEatingRelations(() -> {
             //проверяем, что данные загружены
@@ -87,7 +81,7 @@ public class Main {
     }
 
     // Метод асинхронной загрузки данных с коллбэком
-    public static void loadAnimalOwnData(Runnable callback) {
+    private static void loadAnimalOwnData(Runnable callback) {
         new Thread(() -> {
             try {
                 // Загрузка данных из JSON файла
@@ -98,12 +92,13 @@ public class Main {
 
             } catch (Exception e) {
                 e.printStackTrace();
-                System.out.println("Ошибка загрузке данных о животных, растительности из JSON.");
+                System.out.println("Ошибка загрузки JSON-данных о животных, растительности.");
             }
         }).start();
     }
 
-    public static void loadAnimalEatingRelations(Runnable callback) {
+    // Метод асинхронной загрузки данных с коллбэком
+    private static void loadAnimalEatingRelations(Runnable callback) {
         new Thread(() -> {
             try {
                 // Загрузка данных из JSON файла
@@ -114,7 +109,7 @@ public class Main {
 
             } catch (Exception e) {
                 e.printStackTrace();
-                System.out.println("Ошибка загрузке данных о животных, растительности из JSON.");
+                System.out.println("Ошибка загрузке JSON-данных о питании животных, растительности.");
             }
         }).start();
     }

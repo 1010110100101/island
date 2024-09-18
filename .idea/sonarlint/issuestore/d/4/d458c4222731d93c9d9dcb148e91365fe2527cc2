@@ -1,6 +1,11 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(ŞÇ˜Ïûÿÿÿÿ8ÕşÉÇš2J$de467432-da30-4839-b833-f369d9cd5f7f
-m	java:S106"+Replace this use of System.out by a logger.(ÌĞöÌ8ÖşÉÇš2J$daa9f3b2-3563-4d65-88bb-a48afd1030ed
-`
-java:S2119/"Save and re-use this "Random".(¼İÅf8ÚşÉÇš2J$a274dc7b-b819-4894-8ddb-42bb15a40b2f
-r	java:S106<"+Replace this use of System.out by a logger.(ĞåëØúÿÿÿÿ8ÛşÉÇš2J$60a4abc9-ec8f-434f-a3e2-29b7adfbd5f2
+r
+java:S1066>"/Merge this if statement with the enclosing one.(µÔñ£8æû»şŸ2J$5afe3717-fdb5-4579-8cd3-b1e5e4a57455
+m	java:S106"+Replace this use of System.out by a logger.(©á ®8õû»şŸ2J$caf24bee-7a08-4769-9577-e84bf9f67ca2
+r	java:S106*"+Replace this use of System.out by a logger.(ùÈêøÿÿÿÿ8Æ§ışŸ2J$83ff4cdc-3cb6-47cb-b746-1905ad4f5389
+r	java:S106,"+Replace this use of System.out by a logger.(‘ÍŒÍşÿÿÿÿ8Æ§ışŸ2J$1654fd9c-7130-40f1-b440-54d18daa8d6b
+“
+java:S1764A"KCorrect one of the identical sub-expressions on both sides of operator "&&"(ıû²ñúÿÿÿÿ8ôû»şŸ2J$61108f92-c6fc-4826-9328-d2ebe2c0f592
+“
+java:S1764@"KCorrect one of the identical sub-expressions on both sides of operator "&&"(ıû²ñúÿÿÿÿ8ôû»şŸ2J$9a07d846-f2db-42eb-9705-3d5d5798fa5c
+r	java:S106O"+Replace this use of System.out by a logger.(ĞåëØúÿÿÿÿ8Ê§ışŸ2J$c8bf4a4d-870c-4c3d-9f4f-af71743acdf0

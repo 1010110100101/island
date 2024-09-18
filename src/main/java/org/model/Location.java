@@ -21,10 +21,12 @@ public class Location {
     public int getX() { return this.x; }
     public int getY() { return this.y; }
 
+    private String activeMessage;
 
     public Location(int x, int y) {
         this.x = x;
         this.y = y;
+        this.activeMessage = "Локация ["+getX()+"]["+getY()+"]: ";
     }
 
     public synchronized void addAnimal(Animal animal, boolean firstStart) {
@@ -61,18 +63,19 @@ public class Location {
         animals.remove(animal);
     }
 
-    public boolean hasPlant() {
+    public synchronized boolean hasPlant() {
         return (plants != null && plants.size() > 0);
     }
 
-    public void consumePlant() {
-        plants.removeLast(); // Одно растение съедено
+    public synchronized void consumePlant() {
+        if(plants != null && !plants.isEmpty())
+            plants.removeLast(); // Одно растение съедено
     }
 
     /**
      * Получить добычу из травоядных
      */
-    public  List<Animal> getPrey() {
+    public synchronized List<Animal> getPrey() {
         List<Animal> prey = new ArrayList<>();
         for (Animal animal : animals) {
             //получаем всех травоядных, кроме гусениц
@@ -86,7 +89,7 @@ public class Location {
     /**
      * Получить насекомых (гусениц)
      */
-    public  List<Animal> getCaterpillars() {
+    public synchronized List<Animal> getCaterpillars() {
         List<Animal> caterpillars = new ArrayList<>();
         List<Animal> animalsCopy = new ArrayList<>(animals);  // Создаем копию списка животных
         for (Animal animal : animalsCopy) {
@@ -136,20 +139,17 @@ public class Location {
     }
 
     public synchronized void growPlant() {
-        if (plants == null) {
+        if (plants == null || plants.size() < 0) {
             plants = new ArrayList<>(); // Создание нового растения
         }
 
-        if(plants.size() < 0)
-            plants = new ArrayList<>();
-
-        if(plants.size() < StartParamethers.getInitialPlantAmountInCell())
+        for(int i = 0; i < GlobalWeather.getSunAndRain(); i++)
         {
-            for(int i = 0; i < GlobalWeather.getSunAndRain(); i++)
-            {
-                plants.add(new Plant());
-                System.out.println("Выросло растение");
-            }
+            if(plants.size() >= StartParamethers.getMaxPlantAmountInCell())
+                break;
+
+            this.plants.add(new Plant());
+            System.out.println(this.activeMessage + "выросло растение");
         }
     }
 
@@ -193,6 +193,6 @@ public class Location {
         return animals.stream()
                 .filter(type::isInstance) // Фильтруем животных по типу
                 .map(type::cast) // Приводим к нужному типу
-                .collect(Collectors.toList()); // Собираем в список
+                .toList(); // Собираем в список
     }
 }

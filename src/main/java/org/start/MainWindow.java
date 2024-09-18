@@ -25,9 +25,10 @@ public class MainWindow extends JFrame {
 
         // Инициализация главной панели
         mainPanel = new JPanel();
+
         mainPanel.setLayout(new BorderLayout()); // Используем BorderLayout для размещения панели острова и кнопок
 
-        textField1 = new JTextField(20); // Задаем ширину текстового поля
+        textField1 = new JTextField(10); // Задаем ширину текстового поля
 
         // Инициализация кнопок
         button0 = new JButton("Остановить остров");
@@ -53,11 +54,17 @@ public class MainWindow extends JFrame {
         setTitle("Остров");
         setContentPane(mainPanel);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        pack();  // Устанавливаем размер окна в соответствии с предпочтительными размерами панелей
         setSize(width, height);
         setVisible(true);
 
+
+
+
+
+
         // Запуск перерисовки острова каждые 1000 мс (1 секунда)
-        new Timer(2000, e -> islandPanel.repaint()).start();
+        new Timer(50, e -> islandPanel.repaint()).start();
 
 
 

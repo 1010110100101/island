@@ -4,4 +4,8 @@ import org.model.Annotation.AnimalType;
 import org.model.Herbivore;
 
 @AnimalType(name = "Буйвол", hungerLevel = 5)
-public class Buffalo extends Herbivore {}
+public class Buffalo extends Herbivore {
+    public Buffalo() {
+        super();
+    }
+}

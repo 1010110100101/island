@@ -41,7 +41,7 @@ public class AnimalFactory {
      * @return Map, где ключ - название животного, значение - название класса
      */
     public static Map<String, String> getAnimalClassNameByAnimalName() {
-        if(animalClassesByNames == null || animalClassesByNames.size() == 0) {
+        if(animalClassesByNames == null || animalClassesByNames.isEmpty()) {
             animalClassesByNames = new HashMap<>();
             for (Class<?> clazz : annotatedClasses) {
                 AnimalType annotation = clazz.getAnnotation(AnimalType.class);

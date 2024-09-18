@@ -1,60 +1,41 @@
 
-q
-java:S1121u".Extract the assignment out of this expression.(é±½Ê8Ä”—µŸ2J$8abe8e42-3551-4864-b28b-7a8ae1ac38c6
-q
-java:S1121v".Extract the assignment out of this expression.(·æÙŸ8Ä”—µŸ2J$6cc50771-78eb-4d5c-a78f-8bb258ab0ddc
-˜	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß¾“«ıÿÿÿÿ8Æ”—µŸ2J$8064953c-3daa-4b1c-8bf0-32099b17efe5
-u
-java:S1153æ"1Directly append the argument of String.valueOf().(«ÊÇå8È”—µŸ2J$60c83e2d-0b3f-4a43-92fe-512a3cc1605a
-z
-java:S1153ç"1Directly append the argument of String.valueOf().(Ïˆİ„úÿÿÿÿ8È”—µŸ2J$663ed836-cf17-4265-8dc4-3b0bbb44d5f1
-u
-java:S1153è"1Directly append the argument of String.valueOf().(»àĞ«8È”—µŸ2J$1949d4e7-7d6d-4dd4-8fc2-e250fabab57e
-z
-java:S1153é"1Directly append the argument of String.valueOf().(¡¢Ìñıÿÿÿÿ8È”—µŸ2J$568a6bde-2a39-4407-b881-ac1d15d67c9e
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß¾“«ıÿÿÿÿ8š°‹åŸ2J$dbfe1069-db65-49f1-8370-68900533fcc2
+y
+java:S1153O"1Directly append the argument of String.valueOf().(¡¢Ìñıÿÿÿÿ8°‹åŸ2J$88c2a28a-f804-4048-9656-271620c1181a
+t
+java:S1153P"1Directly append the argument of String.valueOf().(«ÊÇå8°‹åŸ2J$0151bc3b-3ac9-43c7-877e-c84d6ee249f3
+y
+java:S1153Q"1Directly append the argument of String.valueOf().(Ïˆİ„úÿÿÿÿ8°‹åŸ2J$ed88d282-e59b-425b-9276-610306044b09
+s
+java:S1153R"1Directly append the argument of String.valueOf().(„ã8°‹åŸ2J$24c092fe-f406-4c5c-ba2f-c824cb623741
+y
+java:S1153S"1Directly append the argument of String.valueOf().(£œÈíùÿÿÿÿ8°‹åŸ2J$42da19b8-133b-46e1-a75b-aaea1f645479
+t
+java:S1153T"1Directly append the argument of String.valueOf().(»àĞ«8°‹åŸ2J$2014a723-5700-4576-b9e9-65176edf1fac
 ‘
-java:S2095’"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(†Öˆ™8œ˜—µŸ2J$38c2bf17-7d27-4948-9c21-74246345bc45
-‘
-java:S2095¶"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(‡ß¦ö8œ˜—µŸ2J$6b6f8424-09f9-4939-b776-56089ee2abaf
+java:S2095Õ"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(‡ß¦ö8™®ØıŸ2J$cfe49aa5-e609-43da-a802-8bec403d18ee
 
-java:S2095|"VUse try-with-resources or close this "ScheduledExecutorService" in a "finally" clause.(£èìÉøÿÿÿÿ8œ˜—µŸ2J$74403175-7c0d-4a85-abee-debc3c5d6c33
+java:S2095*"VUse try-with-resources or close this "ScheduledExecutorService" in a "finally" clause.(ı÷¤úÿÿÿÿ8†³‹åŸ2J$507564c5-f302-4a74-8af6-acc0f394b753
 n
-java:S3010#"+Remove this assignment of "isIslandInLife".(”ô±8¥˜—µŸ2J$d98f4280-e763-4572-8172-79fd4c306140
-•
-java:S3776H"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ñ›´Æ8ª˜—µŸ2J$8188d519-5702-4834-a052-14150b65e6b8
-x
-java:S1854u"5Remove this useless assignment to local variable "x".(é±½Ê8±˜—µŸ2J$27f4e83b-575e-4d74-a3f4-0ec9cadc1a6a
-x
-java:S1854v"5Remove this useless assignment to local variable "y".(·æÙŸ8±˜—µŸ2J$7473c857-bd7f-4ab1-b785-e76d50cb082c
-€
-java:S1612}"=Replace this lambda with method reference 'this::growPlants'.(„§£ı8´˜—µŸ2J$d1b23698-5e29-432f-a192-98d5b21ee00c
-‹
-java:S1612~"CReplace this lambda with method reference 'this::animalsLifeCycle'.(ßÏ¢Öüÿÿÿÿ8µ˜—µŸ2J$a6d978c8-8e29-4fc0-8386-ef43c3fe651a
+java:S3010"+Remove this assignment of "isIslandInLife".(”ô±8’³‹åŸ2J$bee751e1-f509-416c-9f61-cbd4acd0cc15
 …
-java:S1612"BReplace this lambda with method reference 'this::rottingĞ¡orpses'.(±³‘“8¶˜—µŸ2J$196f997e-55e7-44bc-80b8-56cec234e02d
-Š
-java:S1612€"AReplace this lambda with method reference 'this::showStatistics'.(¦¨ÖÔşÿÿÿÿ8¶˜—µŸ2J$eefcdc0b-8f92-4598-a139-538588fd52ee
-›
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Å²±àøÿÿÿÿ8¸˜—µŸ2J$db7e0970-295f-470d-b9e9-e42e6a896582
-†
-java:S1854’"BRemove this useless assignment to local variable "animalExecutor".(†Öˆ™8¸˜—µŸ2J$d9f4a109-97ed-4e9d-a45f-322335089f3f
-w
-java:S1481’"3Remove this unused "animalExecutor" local variable.(†Öˆ™8º˜—µŸ2J$ff26d61a-e9e7-4174-a31a-6b0cb97b74bd
-	java:S125“"<This block of commented-out lines of code should be removed.(Úô™÷8º˜—µŸ2J$1247db3f-bb2d-4243-9460-454cf0464a86
-	java:S125›"<This block of commented-out lines of code should be removed.(Ú°à¬8»˜—µŸ2J$a34d1864-1a5c-469a-bcf9-8c07b80f42d5
-„	java:S125«"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8½˜—µŸ2J$d57f98d5-7b07-477b-9759-0d5899b18606
-	java:S125°"<This block of commented-out lines of code should be removed.(²‡¿ü8½˜—µŸ2J$3505e6d0-99b0-4807-b75e-6437082e8cce
-‘	java:S100´"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ÇÈ8½˜—µŸ2J$d4974b51-556c-495e-8a0d-fd4e13b3121b
+java:S1612+"=Replace this lambda with method reference 'this::growPlants'.(Àœ•şÿÿÿÿ8 ³‹åŸ2J$d6b75153-a764-494d-a8ae-9bfb86496a71
+‹
+java:S1612,"CReplace this lambda with method reference 'this::animalsLifeCycle'.(Ôß€¢úÿÿÿÿ8¢³‹åŸ2J$0e96be24-0d58-4d02-9656-4f187b209c45
+…
+java:S1612-"BReplace this lambda with method reference 'this::rottingĞ¡orpses'.(üÂ¾–8¢³‹åŸ2J$21cfba30-1490-4b91-ab08-12c5431976f2
+„
+java:S1612."AReplace this lambda with method reference 'this::showStatistics'.(¬à¤ó8£³‹åŸ2J$b85557c2-261b-47df-88ec-224693141aca
+r	java:S106O"+Replace this use of System.out by a logger.(¡¢Ìñıÿÿÿÿ8Û³‹åŸ2J$5c9967b8-af1f-49be-b3fd-60fa12b0aee0
+m	java:S106P"+Replace this use of System.out by a logger.(«ÊÇå8Ü³‹åŸ2J$22fee198-3d8e-48b8-9e28-cf1487c54429
+r	java:S106Q"+Replace this use of System.out by a logger.(Ïˆİ„úÿÿÿÿ8Ü³‹åŸ2J$2cf93b39-1bc9-4bb2-832f-3c4496b5d3d1
+l	java:S106R"+Replace this use of System.out by a logger.(„ã8İ³‹åŸ2J$4205cfa5-2d02-4ca5-b0ae-d0aa632a59d9
+r	java:S106S"+Replace this use of System.out by a logger.(£œÈíùÿÿÿÿ8ÓÌıŸ2J$e9ebb5f6-d947-4142-bac3-7c7f37195b6e
+m	java:S106T"+Replace this use of System.out by a logger.(»àĞ«8ÓÌıŸ2J$e6378303-d491-433c-a28e-7a5a1e2f0ab5
+•
+java:S3776n"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ñ›´Æ8ÏéÖıŸ2J$10a3dd47-0acf-4d30-912b-30f4b740693c
+–
+java:S3776µ"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(–­ÇÈ8­®ØıŸ2J$1a83746d-53d5-4aba-ba08-97148a202ea3
+–	java:S100Ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÇ×šøÿÿÿÿ8¯®ØıŸ2J$3243c353-f511-447d-ac08-12f430539b90
 u
-java:S1602¼",Remove useless curly braces around statement(€ÙØóùÿÿÿÿ8¿˜—µŸ2J$b5ab619a-12bd-4ee9-8be6-5e6b54e08390
-„	java:S125Ï"<This block of commented-out lines of code should be removed.(Ñ§˜Íûÿÿÿÿ8Á˜—µŸ2J$dc755348-f851-4c2d-8472-5a358e2f5a09
-„	java:S125Ô"<This block of commented-out lines of code should be removed.(çéµåüÿÿÿÿ8Â˜—µŸ2J$5a91cbc4-9668-427f-97fe-da65b6ceec44
-	java:S125Ù"<This block of commented-out lines of code should be removed.(¸÷óî8Â˜—µŸ2J$5121eaa8-4e52-4073-9351-d586386a7b4b
-„	java:S125Ş"<This block of commented-out lines of code should be removed.(óÇÃ¤üÿÿÿÿ8Ã˜—µŸ2J$cf552bcf-1dac-4ea8-8dc5-4921f0a78cab
-„	java:S125â"<This block of commented-out lines of code should be removed.(Ëøç±ÿÿÿÿÿ8Ä˜—µŸ2J$15506df8-cf96-403e-9e7b-f9bc889f4bd8
-n	java:S106æ"+Replace this use of System.out by a logger.(«ÊÇå8Ä˜—µŸ2J$7822b94e-6586-4b38-aedf-724fae0f4dfd
-s	java:S106ç"+Replace this use of System.out by a logger.(Ïˆİ„úÿÿÿÿ8Å˜—µŸ2J$a5adeb5c-48dd-4b24-93bf-f2774089a285
-n	java:S106è"+Replace this use of System.out by a logger.(»àĞ«8Å˜—µŸ2J$a377b223-48a1-4858-8442-945f34646f5f
-s	java:S106é"+Replace this use of System.out by a logger.(¡¢Ìñıÿÿÿÿ8Å˜—µŸ2J$8a17fda4-1ee7-4359-8c5e-bad1db1d844d
-€
-java:S1128"=Remove this unused import 'org.model.animalType.Caterpillar'.(˜Ñû¸8Æ˜—µŸ2J$5a4d92a9-112b-47a1-a3ed-45de5e5b39ec
+java:S1602Û",Remove useless curly braces around statement(€ÙØóùÿÿÿÿ8°®ØıŸ2J$12722690-5875-462e-869c-4ea548f0a6a8

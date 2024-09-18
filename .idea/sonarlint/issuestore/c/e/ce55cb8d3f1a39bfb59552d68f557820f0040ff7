@@ -1,22 +1,12 @@
 
 w
-java:S1066F"/Merge this if statement with the enclosing one.(ëƒˆ¿şÿÿÿÿ8²ï‘÷›2J$2ea30c78-bae3-4708-91e8-993de882b226
-˜	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î—ŞŸùÿÿÿÿ8³ï‘÷›2J$0f506034-ffe2-4023-a620-2f931bb7e80e
-˜	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µºÖûÿÿÿÿ8³ï‘÷›2J$86c21b61-fc9f-4a3e-ab28-80c32e6249c3
-“	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºëù‰8³ï‘÷›2J$fb0a6c23-ad3c-41bb-8570-93ade0bc235c
-˜	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïûªÈşÿÿÿÿ8³ï‘÷›2J$78ba97bb-054d-4659-880f-79eb1fb51f3e
-
-java:S2259M"VA "NullPointerException" could be thrown; "potentialToMoveLocations" is nullable here.(ñ‘ÿïúÿÿÿÿ8Ñä®ı›2J$671511c3-d20a-4e46-90d9-d5aa3e263e0d
-
-java:S2259H"VA "NullPointerException" could be thrown; "potentialToMoveLocations" is nullable here.(ë¶âãÿÿÿÿÿ8Ñä®ı›2J$ace03d1d-32c6-4aa1-b23d-e7ea804a61d4
+java:S1066Q"/Merge this if statement with the enclosing one.(ëƒˆ¿şÿÿÿÿ8êş™¥ 2J$79c857ac-f42c-449b-a1a9-7f4dba54da29
 
-java:S5993("9Change the visibility of this constructor to "protected".(÷ç‘ïÿÿÿÿÿ8Üñ‘÷›2J$179e09b4-5f17-4ae8-a8b9-b47800fd4d60
+java:S5993)"9Change the visibility of this constructor to "protected".(÷ç‘ïÿÿÿÿÿ8„€š¥ 2J$4a6ed1ce-beba-4502-b186-6b4126299f04
 •
-java:S37764"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ãëê¨8ßñ‘÷›2J$a62f2f5e-c8da-432b-86e2-9ec91457d09e
+java:S37766"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Ø¾”Ê8‰€š¥ 2J$e8057a16-53a3-4d28-bdb6-4ea13ee19b01
+r	java:S106^"+Replace this use of System.out by a logger.(âÈƒÁÿÿÿÿÿ8€š¥ 2J$b6369c08-e39a-4e70-b16e-81f85b8476b4
+r	java:S106v"+Replace this use of System.out by a logger.(Îî•øÿÿÿÿÿ8€š¥ 2J$02dbe558-6407-4f0e-a07e-c9737114c06a
+m	java:S106y"+Replace this use of System.out by a logger.(Ç•À¯8€š¥ 2J$ee7ec554-73d2-472a-8845-1471632f6cb2
 €
-java:S1155P">Use isEmpty() to check whether the collection is empty or not.(ÖÕ™|8‡å®ı›2J$69e2cb39-1158-483b-a86d-1fdb0f864507
-r	java:S106Q"+Replace this use of System.out by a logger.(âÈƒÁÿÿÿÿÿ8ãñ‘÷›2J$04abe072-413d-4ae8-8f76-40e4aa9cb6c1
-a
-java:S2119U"Save and re-use this "Random".(¡Å”¦8æñ‘÷›2J$6fb8db47-26e9-423f-9d38-3773d757740b
-r	java:S106o"+Replace this use of System.out by a logger.(Îî•øÿÿÿÿÿ8çñ‘÷›2J$39731719-54c7-4ae4-971b-3baaa85750d1
-m	java:S106r"+Replace this use of System.out by a logger.(Ç•À¯8çñ‘÷›2J$1281c1df-684e-47c3-bac7-b5054e709b24
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8€š¥ 2J$39baac69-0ffd-4f8f-a2ea-4fffe7080faa
