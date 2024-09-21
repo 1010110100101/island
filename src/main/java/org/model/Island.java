@@ -1,8 +1,10 @@
 package org.model;
 
+import org.model.animalType.Animal;
 import org.model.animalType.Plant;
 import org.start.StartParamethers;
 
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -40,10 +42,10 @@ public class Island {
 
     public void simulateLifeCycle() {
         ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(16);
-        scheduler.scheduleAtFixedRate(() -> growPlants(), 0, 250, TimeUnit.MILLISECONDS); //рост травы
-        scheduler.scheduleAtFixedRate(() -> animalsLifeCycle(), 0, 500, TimeUnit.MILLISECONDS); //день проживания животных
-        scheduler.scheduleAtFixedRate(() -> rottingСorpses(), 0, 500, TimeUnit.MILLISECONDS); //разложение трупов умерших от голода животных
-        scheduler.scheduleAtFixedRate(() -> showStatistics(), 0, 500, TimeUnit.MILLISECONDS); //вывод статистики в консоль
+        scheduler.scheduleAtFixedRate(() -> growPlants(), 0, 2000, TimeUnit.MILLISECONDS); //рост травы
+        scheduler.scheduleAtFixedRate(() -> animalsLifeCycle(), 0, 2000, TimeUnit.MILLISECONDS); //день проживания животных
+        scheduler.scheduleAtFixedRate(() -> rottingСorpses(), 0, 2000, TimeUnit.MILLISECONDS); //разложение трупов умерших от голода животных
+        scheduler.scheduleAtFixedRate(() -> showStatistics(), 0, 2000, TimeUnit.MILLISECONDS); //вывод статистики в консоль
     }
 
     public synchronized void showStatistics() {
@@ -186,20 +188,20 @@ public class Island {
             for (int j = 0; j < height; j++) {
                 Location location = grid[i][j];
 
+                List<Animal> nodeadanimal = location.getNoDeadAnimals();
                 //жизненный цикл живых животных
-                for (Animal animal : location.getNoDeadAnimals()) {
+                for (Animal animal : nodeadanimal) {
                     //голодание
                     animal.starve();
 
-                    //если животное живое (не умерло еще)
+                    //если животное живое (не сдохло еще)
                     if (!animal.isDead) {
-                        if(animal.getWeightPercentage() < 85) {//если вес животного близок к идеальному, пища ему не нужна
-                            //питание
-                            animal.eat();
-                        } else {
-                            //размножение
-                            animal.reproduce(this);
-                        }
+
+                        //питание
+                        animal.eat();
+
+                        //размножение
+                        animal.reproduce(this);
 
                         //перемещение
                         animal.move(this);

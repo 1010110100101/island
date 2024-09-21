@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+import org.model.animalType.Animal;
 import org.reflections.Reflections;
 
 public class AnimalFactory {

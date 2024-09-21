@@ -1,24 +1,24 @@
 
 
-java:S2293¢"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÅ‰¤8÷±ÎäŸ2J$499abd93-fc61-4bc2-90b0-fe2d6b71cae5
+java:S2293§"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÅ‰¤8·â‰© 2J$ad5692d3-4a6a-4300-88b8-47fe41026f06
 ¶
-java:S1319 "mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(şôş”üÿÿÿÿ8ø±ÎäŸ2J$450fb0a1-527c-417e-85ef-436ab009b199
+java:S1319¥"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(şôş”üÿÿÿÿ8¸â‰© 2J$58558518-0a94-4755-a17f-7c757a05f709
 
-java:S3824°"IReplace this "Map.containsKey()" with a call to "Map.computeIfPresent()".(ğğŠ8²ÎäŸ2J$347a740b-7196-4d7b-98f7-28858bb495e5
-m	java:S106%"+Replace this use of System.out by a logger.(ëò€8”²ÎäŸ2J$cc663c37-8264-4b2b-a2b0-797ccf30252a
-r	java:S106'"+Replace this use of System.out by a logger.(âØ™ûÿÿÿÿ8”²ÎäŸ2J$edf5b0bc-923e-4bdb-a6ab-cabbec14cada
-m	java:S1061"+Replace this use of System.out by a logger.(ê”¤–8•²ÎäŸ2J$9497aa5b-4a9c-4e1b-9216-6c95ef7e824b
-r	java:S1063"+Replace this use of System.out by a logger.(·ß´‹ÿÿÿÿÿ8–²ÎäŸ2J$f3b9f67c-c55e-497a-9cbf-ad454c676eb5
-r	java:S106;"+Replace this use of System.out by a logger.(˜‚ëùşÿÿÿÿ8–²ÎäŸ2J$7abbff4e-c01e-453b-97ac-9dedd4349182
-l	java:S106="+Replace this use of System.out by a logger.(àœê>8—²ÎäŸ2J$3c1946db-0208-40d2-9013-8845d413c12b
+java:S3824µ"IReplace this "Map.containsKey()" with a call to "Map.computeIfPresent()".(ğğŠ8Ìâ‰© 2J$0aad136e-33ae-4e24-a798-675c0c8f7cf4
+m	java:S106&"+Replace this use of System.out by a logger.(ëò€8Òâ‰© 2J$ee0fc5fa-d180-4de1-82ae-f22df486d09c
+r	java:S106("+Replace this use of System.out by a logger.(âØ™ûÿÿÿÿ8Òâ‰© 2J$7bb2dd1b-eb41-4c6c-be60-049073cfe7e1
+m	java:S1062"+Replace this use of System.out by a logger.(ê”¤–8Óâ‰© 2J$51ab2a7e-cf11-46a5-b979-238f1b9bc4af
+r	java:S1064"+Replace this use of System.out by a logger.(·ß´‹ÿÿÿÿÿ8Óâ‰© 2J$8636c61b-1593-45d3-9a07-d870cfc48991
+r	java:S106<"+Replace this use of System.out by a logger.(˜‚ëùşÿÿÿÿ8Õâ‰© 2J$e070162f-e62e-47d5-9c4b-085ac4dc8e62
+l	java:S106>"+Replace this use of System.out by a logger.(àœê>8Õâ‰© 2J$54338b52-fe55-40ca-8089-cad4991d4224
 †
-java:S1155C">Use isEmpty() to check whether the collection is empty or not.(â„Œ¦şÿÿÿÿ8˜²ÎäŸ2J$7a2a133b-3063-4559-80f2-053f1f1e61db
+java:S1155D">Use isEmpty() to check whether the collection is empty or not.(â„Œ¦şÿÿÿÿ8Öâ‰© 2J$fc4749a5-a4df-43d2-a048-c38ed7cd08a0
 ~
-java:S1117r";Rename "animals" which hides the field declared at line 15.(Å×•ª8›²ÎäŸ2J$ba7457cf-7f98-41aa-8f29-a60e09d6ca01
+java:S1117t";Rename "animals" which hides the field declared at line 16.(Å×•ª8Úâ‰© 2J$341bf5d9-7248-4fec-8749-18d8979c1af7
 ~
-java:S1117|";Rename "animals" which hides the field declared at line 15.(Å×•ª8œ²ÎäŸ2J$3474d8f2-32a7-458c-b904-82d4ac08ee46
+java:S1117~";Rename "animals" which hides the field declared at line 16.(Å×•ª8Úâ‰© 2J$b1a65b5f-6354-43ba-beca-d11d26dd6d6e
 ”
-java:S3981"KThe size of "plants" is always ">=0", so update this test to use isEmpty().(ü¯Ãîúÿÿÿÿ8²ÎäŸ2J$ffe84507-f8df-402c-aaa1-582270f16177
-n	java:S106˜"+Replace this use of System.out by a logger.(¬•¿8Ÿ²ÎäŸ2J$a0732b44-d9d4-4607-8f7e-e1e0f6f43b2a
+java:S3981"KThe size of "plants" is always ">=0", so update this test to use isEmpty().(ü¯Ãîúÿÿÿÿ8Üâ‰© 2J$97a37537-cc92-4855-ae0d-9ff4e5486a08
+n	java:S106"+Replace this use of System.out by a logger.(¬•¿8ßâ‰© 2J$3ea4cdef-99e7-476c-a956-48f210524b64
 –
-java:S6204¼"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8£²ÎäŸ2J$5de3a425-5e07-4825-a11e-a6ee27730536
+java:S6204Á"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8äâ‰© 2J$5bff0434-cd66-4502-b81e-eb415933b156

@@ -1,9 +1,16 @@
 
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»©ıÿÿÿÿJ$10b4c404-a40b-4208-9334-6cc80c8695a6
+r
+java:S1066+"/Merge this if statement with the enclosing one.(Í¹ÎÁ8±ÊàÒ 2J$37866cad-30cb-4f6e-85c6-7a53247f683c
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»©ıÿÿÿÿ8²ÊàÒ 2J$4ff7eb90-1e5b-487b-a0f8-c9d8d618d33e
 Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãëê¨8çû¯ı›2J$fec056df-9117-4114-9b45-d7549ab3e8a2
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãëê¨8ÑÊàÒ 2J$afdb9543-fa57-426d-8977-759998ab00a2
 Œ
-java:S3551"IMake this method "synchronized" to match the parent class implementation.(¥©°«8šÄ ÔŸ2J$45b60b22-7323-4cbc-8b4e-39079fe4fbf4
-r	java:S106"+Replace this use of System.out by a logger.(ª¨ÅÜûÿÿÿÿ8şœ›Ãš2J$cfc55e4b-7585-4c1c-8114-2638b6121634
+java:S3551"IMake this method "synchronized" to match the parent class implementation.(¥©°«8é“²¡2J$a99e4802-ca48-4241-b0cd-9ff7f5a2bab8
+r	java:S106"+Replace this use of System.out by a logger.(ª¨ÅÜûÿÿÿÿ8ÕÊàÒ 2J$4b6a7f85-8cca-4e2b-ae02-82010480500e
 Œ
-java:S3551"IMake this method "synchronized" to match the parent class implementation.(ãëê¨8Ä ÔŸ2J$7f0ea3b8-1cde-4ac9-895b-257da310d548
+java:S3551"IMake this method "synchronized" to match the parent class implementation.(ãëê¨8ê“²¡2J$6a409ea9-669d-46f7-a8e2-27ca06c11bf0
+‚
+java:S1161":Add the "@Override" annotation above this method signature(³„©†ıÿÿÿÿ8ë“²¡2J$2443e0fd-8efe-431c-9549-9012112911f2
+r	java:S106"+Replace this use of System.out by a logger.(Îî•øÿÿÿÿÿ8ÖÊàÒ 2J$80ec94f8-72ef-4f3a-b187-bf9f0d58ba9d
+m	java:S106!"+Replace this use of System.out by a logger.(õñ8×ÊàÒ 2J$c1a81f5f-6599-422c-b7e0-7208dcb597da
+r	java:S106>"+Replace this use of System.out by a logger.(ÃŒ°ıüÿÿÿÿ8ÚÊàÒ 2J$2497b57f-53af-48e5-b5d8-9c2ca26efe6e

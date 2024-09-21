@@ -1,12 +1,6 @@
 
 w
-java:S1066?"/Merge this if statement with the enclosing one.(ú„æÂıÿÿÿÿ8Ö÷şŸ2J$66098795-9fbd-4b97-ac5d-6a4111f38197
-m	java:S106-"+Replace this use of System.out by a logger.(¯ËĞµ8¹Ö÷şŸ2J$2cca01d4-80a7-46b6-b2d8-b34104fdcf4f
-m	java:S1060"+Replace this use of System.out by a logger.(¾šÓ’8´ÔùşŸ2J$f0c4954c-2215-41f4-b4ef-121ac60032e6
-“
-java:S1764A"KCorrect one of the identical sub-expressions on both sides of operator "&&"(òóãıÿÿÿÿÿ8¶Ö÷şŸ2J$50044226-e113-4199-b956-6f5091a67f80
-
-java:S1764@"KCorrect one of the identical sub-expressions on both sides of operator "&&"(ùÀ ›8¶Ö÷şŸ2J$4c9b483c-0ea7-401c-9a7b-dcc59a9da8f5
-m	java:S106O"+Replace this use of System.out by a logger.(üğÃº8¸ÔùşŸ2J$49016c9b-599f-484f-93a5-b2d7e5fcfedc
-[
-java:S1128">Remove this unused import 'org.model.Annotation.PredatorType'.(¦ÿÎÏ8¼ğ¢¥ 2
+java:S1066C"/Merge this if statement with the enclosing one.(ÑäçÓşÿÿÿÿ8Ö÷şŸ2J$a6563d37-9364-4832-9c83-7eb3f59d073d
+l	java:S106-"+Replace this use of System.out by a logger.(Éş¤J8¹Ö÷şŸ2J$95bcc879-5098-48c9-ac65-6c4cc91bc8e3
+r	java:S1060"+Replace this use of System.out by a logger.(•¢ÊÒıÿÿÿÿ8´ÔùşŸ2J$94c43c3e-ba05-456f-9254-9d57cfeb5103
+m	java:S106R"+Replace this use of System.out by a logger.(üğÃº8¸ÔùşŸ2J$0f707b72-3422-4329-ad2f-cbfaca47d843

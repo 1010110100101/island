@@ -1,5 +1,6 @@
 package org.model;
 
+import org.model.animalType.Animal;
 import org.model.animalType.Caterpillar;
 import org.model.animalType.Plant;
 import org.start.StartParamethers;
@@ -79,7 +80,8 @@ public class Location {
         List<Animal> prey = new ArrayList<>();
         for (Animal animal : animals) {
             //получаем всех травоядных, кроме гусениц
-            if (animal instanceof Herbivore && !(animal instanceof Caterpillar)) {
+            if (animal instanceof Herbivore &&
+                    !(animal instanceof Caterpillar)) {
                 prey.add(animal);
             }
         }
@@ -148,7 +150,10 @@ public class Location {
             if(plants.size() >= StartParamethers.getMaxPlantAmountInCell())
                 break;
 
-            this.plants.add(new Plant());
+            for (int j = 0; j < 20; j++)
+                this.plants.add(new Plant());
+
+
             System.out.println(this.activeMessage + "выросло растение");
         }
     }

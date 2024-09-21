@@ -1,7 +1,11 @@
 
 ¥
-java:S1192""bDefine a constant instead of duplicating this literal "ĞÑÑ‚Ğ°Ğ½Ğ¾Ğ²Ğ¸Ñ‚ÑŒ Ğ¾ÑÑ‚Ñ€Ğ¾Ğ²" 3 times.(Ì›Ğ®8ÿ‘ÚºŸ2J$f6c55a92-60f1-4211-9cc3-6a0eb44687d9
-	java:S116"\Rename this field "addSunAndRain_btn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»˜õ 8Š’ÚºŸ2J$1f56baab-0d72-432f-8bed-be7200ecb924
-¦	java:S116"_Rename this field "reduceSunAndRain_btn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ü™ùÿÿÿÿ8Š’ÚºŸ2J$dc9391ab-2663-433c-bb27-c6d20bf1dd35
+java:S1192)"bDefine a constant instead of duplicating this literal "ĞÑÑ‚Ğ°Ğ½Ğ¾Ğ²Ğ¸Ñ‚ÑŒ Ğ¾ÑÑ‚Ñ€Ğ¾Ğ²" 3 times.(Ì›Ğ®8ÏÇğ© 2J$0fc6c547-d639-4a08-984d-98a4468dbf64
+	java:S116"\Rename this field "addSunAndRain_btn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»˜õ 8Èğ© 2J$ed4b124e-69cc-47f1-8416-8c834ae4849d
+¦	java:S116"_Rename this field "reduceSunAndRain_btn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ü™ùÿÿÿÿ8Èğ© 2J$f4f934bd-49c2-4f13-bc6f-84ad00f3c4af
+k
+java:S1948"(Make "island" transient or serializable.(Ó¯¾±8”Èğ© 2J$1ec6528a-706c-4e15-835c-96e8ba6dc28e
 ‘
-java:S32528"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8˜’ÚºŸ2J$9ac0d6f3-86a5-45c2-b8c1-e59965f63090
+java:S3252J"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8šÈğ© 2J$6cb959ec-2461-4d2a-b400-2d7fc1262374
+m
+java:S1068"*Remove this unused "island" private field.(Ó¯¾±8¦Èğ© 2J$129ebcf5-ff92-4c29-ba1b-9ecc3d88c4cd

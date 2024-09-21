@@ -1,5 +1,7 @@
-package org.model;
+package org.model.animalType;
 import org.model.Annotation.AnimalType;
+import org.model.Island;
+import org.model.Location;
 import org.start.StartParamethers;
 
 import java.util.*;
@@ -8,7 +10,7 @@ import java.util.stream.Collectors;
 
 public abstract class Animal {
 
-    int id;
+    public int id;
 
     protected boolean finishedCycle;
     public boolean isFinishedCycle() {
@@ -17,14 +19,14 @@ public abstract class Animal {
     public void resetCycle() {
         this.finishedCycle = false;
     }
-    protected boolean isDead = false;
+    public boolean isDead = false;
 
-    protected String name;
+    public String name;
 
     public String getName() { return name; }
 
-    protected float weight;
-    protected float etalonWeight;
+    public float weight;
+    public float etalonWeight;
 
     //процентное соотношение текущей массы тела к эталонному значению
     public float getWeightPercentage() {
@@ -35,15 +37,14 @@ public abstract class Animal {
     }
 
     protected int hungerLevel;
-    protected int transferSpeed;
-    protected Location location;
+    public int transferSpeed;
+    public Location location;
 
     public Animal() {
         AnimalType animalType = this.getClass().getAnnotation(AnimalType.class);
         if (animalType != null) {
             this.name = animalType.name();
             this.hungerLevel = animalType.hungerLevel();
-
         }
 
         this.finishedCycle = false;
@@ -116,9 +117,9 @@ public abstract class Animal {
     public synchronized void starve() {
         this.weight *= 0.95f;
         System.out.println(name + " похудел на 5%");
-        if(this.weight < 0.5f*this.etalonWeight) {
+        if(this.weight < 0.5f * this.etalonWeight) {
             this.isDead = true;
-            System.out.println(name + " сдох");
+            System.out.println(this.name + " сдох");
         }
     }
 
@@ -127,7 +128,7 @@ public abstract class Animal {
             weight = 0;
 
         this.etalonWeight = weight;
-        this.weight = etalonWeight;
+        //this.weight = etalonWeight;
     }
 
     public float getEtalonWeight() {

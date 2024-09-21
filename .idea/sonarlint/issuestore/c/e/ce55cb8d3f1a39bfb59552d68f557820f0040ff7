@@ -1,12 +1,21 @@
 
 w
-java:S1066Q"/Merge this if statement with the enclosing one.(ëƒˆ¿şÿÿÿÿ8êş™¥ 2J$79c857ac-f42c-449b-a1a9-7f4dba54da29
+java:S1066P"/Merge this if statement with the enclosing one.(ëƒˆ¿şÿÿÿÿ8Ğıê¦ 2J$9caaf75c-0714-4867-ba18-80702fe42865
+š
+java:S1104"RMake isDead a static final constant or non-public and provide accessors if needed.(ÖŠ¸úÿÿÿÿ8ÔÆ§ 2J$d2f41ff3-9482-4471-9c14-dad4770f447a
+“
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾8ØñÌ§ 2J$47510641-bb43-4348-a784-c413a1361fe9
+š
+java:S1104"RMake weight a static final constant or non-public and provide accessors if needed.(«­³·ûÿÿÿÿ8””Í§ 2J$c8ff56eb-8412-4218-b37d-ee0b12fe1da0
+œ
+java:S1104&"YMake transferSpeed a static final constant or non-public and provide accessors if needed.(µõŒÓ8””Í§ 2J$f1a36940-b80b-4075-9186-ecb3920db4b3
 
-java:S5993)"9Change the visibility of this constructor to "protected".(÷ç‘ïÿÿÿÿÿ8„€š¥ 2J$4a6ed1ce-beba-4502-b186-6b4126299f04
+java:S5993)"9Change the visibility of this constructor to "protected".(÷ç‘ïÿÿÿÿÿ8òşê¦ 2J$0fd12778-b571-48d5-8353-cb449f8a84f2
 •
-java:S37766"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Ø¾”Ê8‰€š¥ 2J$e8057a16-53a3-4d28-bdb6-4ea13ee19b01
-r	java:S106^"+Replace this use of System.out by a logger.(âÈƒÁÿÿÿÿÿ8€š¥ 2J$b6369c08-e39a-4e70-b16e-81f85b8476b4
-r	java:S106v"+Replace this use of System.out by a logger.(Îî•øÿÿÿÿÿ8€š¥ 2J$02dbe558-6407-4f0e-a07e-c9737114c06a
-m	java:S106y"+Replace this use of System.out by a logger.(Ç•À¯8€š¥ 2J$ee7ec554-73d2-472a-8845-1471632f6cb2
+java:S37765"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Ø¾”Ê8öşê¦ 2J$7d8c57af-76a3-4a16-9101-551b2f82713b
+r	java:S106]"+Replace this use of System.out by a logger.(âÈƒÁÿÿÿÿÿ8ùşê¦ 2J$8f41ccf1-a6cb-46b0-9d32-5d3acb9e8a70
+r	java:S106u"+Replace this use of System.out by a logger.(Îî•øÿÿÿÿÿ8ûşê¦ 2J$4bfbfa41-50b8-4d37-b065-f2232481a1ec
+m	java:S106x"+Replace this use of System.out by a logger.(õñ8ûşê¦ 2J$0e7d4e9d-3145-4ca4-b5c5-501b9b887949
+„	java:S125"<This block of commented-out lines of code should be removed.(ƒå“ ûÿÿÿÿ8üşê¦ 2J$d7bdfb2f-d859-4106-b620-94be9f7b39d3
 €
-java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8€š¥ 2J$39baac69-0ffd-4f8f-a2ea-4fffe7080faa
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ışê¦ 2J$450c1d32-2617-417a-855d-c371fc26fe36

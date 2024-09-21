@@ -93,6 +93,8 @@ public class StartParamethers {
     }
 
 
+
+
     private static Map<String, Map<String, Integer>> eatingProbabilities;
     private static Map<String, Map<String, Float>> ownValues;
     private static Set<String> animalsNames;
@@ -112,7 +114,7 @@ public class StartParamethers {
                                         JsonPrimitive jsonPrimitive =
                                                 json.getAsJsonPrimitive();
                                         if (jsonPrimitive.isNumber()) {
-                                            return jsonPrimitive.getAsFloat();
+                                            return jsonPrimitive.getAsFloat(); // позволяет работать не только с целочисленным типом
                                         }
                                     }
                                     return 0f; // Или какое-либо значение по умолчанию

@@ -1,11 +1,10 @@
 
-r
-java:S1066>"/Merge this if statement with the enclosing one.(µÔñ£8æû»şŸ2J$5afe3717-fdb5-4579-8cd3-b1e5e4a57455
-m	java:S106"+Replace this use of System.out by a logger.(©á ®8õû»şŸ2J$caf24bee-7a08-4769-9577-e84bf9f67ca2
-r	java:S106*"+Replace this use of System.out by a logger.(ùÈêøÿÿÿÿ8Æ§ışŸ2J$83ff4cdc-3cb6-47cb-b746-1905ad4f5389
-r	java:S106,"+Replace this use of System.out by a logger.(‘ÍŒÍşÿÿÿÿ8Æ§ışŸ2J$1654fd9c-7130-40f1-b440-54d18daa8d6b
-“
-java:S1764A"KCorrect one of the identical sub-expressions on both sides of operator "&&"(ıû²ñúÿÿÿÿ8ôû»şŸ2J$61108f92-c6fc-4826-9328-d2ebe2c0f592
-“
-java:S1764@"KCorrect one of the identical sub-expressions on both sides of operator "&&"(ıû²ñúÿÿÿÿ8ôû»şŸ2J$9a07d846-f2db-42eb-9705-3d5d5798fa5c
-r	java:S106O"+Replace this use of System.out by a logger.(ĞåëØúÿÿÿÿ8Ê§ışŸ2J$c8bf4a4d-870c-4c3d-9f4f-af71743acdf0
+w
+java:S1066X"/Merge this if statement with the enclosing one.(ºã¤†üÿÿÿÿ8Àô«Ò 2J$d4f62e62-e099-4a28-948e-f573199cfb9b
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(êÉô’8Íô«Ò 2J$3f7fb3d8-948a-402d-94d0-f029e97fd3e3
+m	java:S106&"+Replace this use of System.out by a logger.(©á ®8Ïô«Ò 2J$361011ba-26b2-4067-9700-5fa8a2e57e38
+r	java:S106)"+Replace this use of System.out by a logger.(“½ÿşÿÿÿÿ8Ğô«Ò 2J$1a18ab93-6016-437c-b9b3-eacae321e141
+m	java:S106?"+Replace this use of System.out by a logger.(ĞÂçÖ8Ñô«Ò 2J$0e0e50e4-1009-40f4-8d20-ddb6b62b94f3
+r	java:S106A"+Replace this use of System.out by a logger.(‘ÍŒÍşÿÿÿÿ8Ñô«Ò 2J$15e6a31a-99f4-4e99-8b65-788c9647cb58
+r	java:S106i"+Replace this use of System.out by a logger.(ĞåëØúÿÿÿÿ8Ôô«Ò 2J$01f53588-0e99-4253-a72b-ca6955fba86a

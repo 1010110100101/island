@@ -203,3 +203,5 @@ w
 G.idea/sonarlint/issuestore/d/9/d9726573edee9ce2b6a49970b241f2ad8d957db8,3\b\3b6b0f7dba3cafe6462c4340264c584a3fa68721
 Å
 Q.idea/sonarlint/securityhotspotstore/d/5/d54bd7d7eb8d1a247a14b6db1f25ef3e08da7b8a,f\d\fd91da20790f1211a87350c98f0401d7743e67dc
+^
+.src/main/java/org/model/animalType/Animal.java,5\9\5919a2fe93c9254225013c4dd63077caac9c580b

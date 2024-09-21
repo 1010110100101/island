@@ -20,5 +20,5 @@ public class GlobalWeather {
             sunAndRain--;
     }
 
-    private static int sunAndRain = 3;
+    private static int sunAndRain = 5;
 }
